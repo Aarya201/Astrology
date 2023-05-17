@@ -1,0 +1,51 @@
+<html onload="onload()">
+    <head>
+        <title>Astrology</title>
+        <script src="main.js"></script>
+        <style>
+            html {
+                background-color:coral;
+            }
+            h1 {
+                text-align: center;
+            }
+            #hey {
+                text-align: center;;
+            }
+            h2 {
+                text-align: center;
+            }
+            button {
+                background-color: #ff00ff;
+                color: black;
+                font-size: 22px;
+                border-color: blueviolet;
+                border-width: 3.5px;
+                display: block; 
+                margin: auto;
+                margin-top: 20px;
+            }
+            #date {
+                background-color: antiquewhite;
+                color: black;
+                font-size: 27px;
+                border-color: blueviolet;
+                border-width: 3.5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Know Your Zodiac Sign</h1>
+        <h2 id="hey">Enter Your Birth Date:</h2>
+        <div style="text-align: center; margin: auto; margin-top: 30px;">
+            <input type="date" value="2010-02-01" id="date" style="text-align: center; ">
+            <button onclick="submit()">Submit</button>
+        </div>
+        <div style="text-align: center; margin: auto;">
+            <h1 id="main"></h1>
+            <img src="" id="imag" style="width: 15%;">
+            <h3 id="description"></h3>
+            <button style="visibility:hidden;" id="zod"><a href="inn.html">Check What zodiac sign you will be according to personality</a></button>
+        </div>
+    </body>
+</html>

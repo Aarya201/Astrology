@@ -1,14 +1,16 @@
 <html>
     <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/png" href="Aquarius.png"/>
         <title>
             Astrology
         </title>
         <script src="code.js"></script>
         <style>
-            html {
-                background-color:coral;
-            }
+
             h1 {
                 text-align: center;
             }
@@ -22,7 +24,7 @@
                 background-color: #ff00ff;
                 color: black;
                 font-size: 22px;
-                border-color: blueviolet;
+                border-color:#fd0000;
                 border-width: 3.5px;
                 display: block; 
                 margin: auto;
@@ -37,8 +39,8 @@
             }
         </style>
     </head>
-    <body>
-        <h1>Answer the Following questions: </h1>
+    <body class="container col-lg-6 col-md-6 col-sm-6 col-xs-11" style="background-color: blueviolet;">
+        <h1 class="btn btn-info" style="font-size: 22px; text-align: center;">Answer the Following questions: </h1>
         <a href="index.html"><button>Home Page</button></a>
         <img src="" id="im" style="text-align: center; visibility: hidden;">
         <h2 id="question">Where is home for you?</h2>

@@ -285,7 +285,7 @@ function nine3() {
 function nine4() {
     points = points + 3
     console.log(points)
-    var elem9 = document.getElementById('eight');
+    var elem9 = document.getElementById('nine');
     document.getElementById('ten').style.visibility = "visible"
     elem9.parentNode.removeChild(elem9);
     document.getElementById('question').innerHTML = "What is your attitude most of the time?"
